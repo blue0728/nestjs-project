@@ -1,0 +1,11 @@
+{
+    "name": "helper-node-service",
+    "cwd": "./",
+    "script": "npm",
+    "args": "run start:prod",
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "error_file": "./pm2logs/node-app.stderr.log",
+    "out_file": "./pm2logs/node-app.stdout.log",
+    "ignore_watch": ["node_modules", "pm2logs", "package.json","package-lock.json","yarn-error.log","yarn.lock"],
+    "watch": ["dist"]
+}

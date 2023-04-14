@@ -1,0 +1,28 @@
+# 系统 信息文件
+.DS_Store/
+Thumbs.db
+.DS_Store
+yarn.lock
+# 包目录
+node_modules/
+
+# 编辑器配置文件
+.idea/
+.vscode/
+
+# 输出目录
+dist/
+
+# 日志文件
+*.log
+
+# 本地配置文件
+*.local
+
+# 缓存文件
+*.cache
+
+# 垃圾文件
+.Trashes
+
+.mini-ide/
